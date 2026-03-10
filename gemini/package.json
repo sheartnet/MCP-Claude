@@ -1,0 +1,14 @@
+{
+  "name": "gemini-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Google Gemini 3.x via OpenAI-compatible + native API",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "openai": "^4.77.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "qwen-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Qwen2.5-Coder via Ollama local",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "openai": "^4.77.0"
+  }
+}
