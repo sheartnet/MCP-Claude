@@ -1,0 +1,15 @@
+{
+  "name": "claude-additional-models-mcp",
+  "version": "2.0.0",
+  "description": "Reduce Claude Desktop consumption by 10x — integrate external AI models (GLM-5, Gemini 3.x) via MCP for intelligent task delegation",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start:glm5": "node index.js",
+    "start:gemini": "node gemini/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "node-fetch": "^3.3.2"
+  }
+}

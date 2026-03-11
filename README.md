@@ -37,6 +37,8 @@ Runs `qwen2.5-coder:14b` locally via Ollama. Free, private, GPU-accelerated.
 
 **Rule:** Always prefer `ask_qwen` for routine code — it runs locally and costs zero tokens.
 
+**Sub-agent rule:** When tasks have independent parts, spawn parallel sub-agents — each must use the external tools above, not Claude's own generation. Any sub-agent generating >50 lines or >300 words without delegating is violating this rule.
+
 ---
 
 ## Requirements
